@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mounikareddy78344/reactjs_course.git/static/css/main.9e6650dc.css",
+    "main.js": "/mounikareddy78344/reactjs_course.git/static/js/main.c9290e12.js",
+    "index.html": "/mounikareddy78344/reactjs_course.git/index.html",
+    "main.9e6650dc.css.map": "/mounikareddy78344/reactjs_course.git/static/css/main.9e6650dc.css.map",
+    "main.c9290e12.js.map": "/mounikareddy78344/reactjs_course.git/static/js/main.c9290e12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6650dc.css",
+    "static/js/main.c9290e12.js"
+  ]
+}
