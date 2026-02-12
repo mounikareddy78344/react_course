@@ -1,38 +1,93 @@
-.App {
+/* Smooth Theme Transition */
+body {
+  transition: all 0.3s ease-in-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 12px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Links */
+.nav-link {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Container spacing */
+.container {
+  margin-top: 30px;
+}
+
+/* Textarea Styling */
+textarea.form-control {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+textarea.form-control:focus {
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+  border-color: #0d6efd;
+}
+
+/* Buttons */
+button.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+button.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Alert Styling */
+.alert {
+  margin: 10px 20px;
+  border-radius: 8px;
   text-align: center;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Dark Theme Custom Enhancements */
+body {
+  background-color: white;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body.dark-mode {
+  background-color: #1e293b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Text Heading */
+h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Switch Alignment */
+.form-check-input {
+  cursor: pointer;
 }
